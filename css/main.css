@@ -1,3 +1,60 @@
-.content-block {
-    font-size: 28px;
+
+.view-left {
+    float: left;
+    width: 320px;
+    border-right: 1px solid #fff;
+
+    background: #1a2d58;
+}
+
+.view-main {
+    width: -webkit-calc(100% - 321px);
+    width: -moz-calc(100% - 321px);
+    width: -ms-calc(100% - 321px);
+    width: calc(100% - 321px);
+}
+
+.page-content .image {
+    text-align: center;
+}
+.page-content .image img {
+    width: 70%;
+}
+
+.page-content {
+    background: #1a2d58;
+    color: #fff;
+}
+
+.card {
+    color: #212121;
+}
+
+.list-block ul:before {
+    background-color: transparent;
+}
+
+.list-block .item-inner:after {
+        background-color: rgba(255,255,255,.8);
+}
+
+.list-block .item-inner a {
+    color: #fff;
+}
+
+.navbar {
+    background: #fff;
+    color: #000;
+
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card-header a.link {
+    padding-left: 0px;
+}
+
+.accordion-item .item-inner .content-block-title {
+    font-size: 140%;
+    color: #000;
+    font-weight: 500;
 }
