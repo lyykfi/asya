@@ -11,3 +11,6 @@ var mainView = myApp.addView('.view-main', {
 });
 
 //myApp.openPanel("left");
+$$(".panel-left a").on("click", function() {
+    myApp.closePanel();
+});

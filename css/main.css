@@ -1,28 +1,22 @@
-
 .view-left {
-    float: left;
-    width: 320px;
-    border-right: 1px solid #fff;
-
-    background: #1a2d58;
 }
 
 .view-main {
-    width: -webkit-calc(100% - 321px);
-    width: -moz-calc(100% - 321px);
-    width: -ms-calc(100% - 321px);
-    width: calc(100% - 321px);
+}
+
+.panel-left a {
+    font-size: 90%;
 }
 
 .page-content .image {
     text-align: center;
 }
 .page-content .image img {
-    width: 70%;
+    width: 98%;
 }
 
 .page-content {
-    background: #1a2d58;
+    background: #132455;
     color: #fff;
 }
 
@@ -30,24 +24,7 @@
     color: #212121;
 }
 
-.list-block ul:before {
-    background-color: transparent;
-}
 
-.list-block .item-inner:after {
-        background-color: rgba(255,255,255,.8);
-}
-
-.list-block .item-inner a {
-    color: #fff;
-}
-
-.navbar {
-    background: #fff;
-    color: #000;
-
-    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
-}
 
 .card-header a.link {
     padding-left: 0px;
