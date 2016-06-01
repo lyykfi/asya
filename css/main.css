@@ -29,7 +29,14 @@
     color: rgba(255, 255, 255, 0.8);
 }
 
+.card-header:after,
+.card-footer:before {
+    background: transparent;
+}
 
+.card {
+    box-shadow: none;
+}
 
 .card-header a.link {
     padding-left: 0px;
