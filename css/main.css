@@ -16,13 +16,40 @@
 }
 
 .page-content {
-    background: #132455;
+    padding-top: 42px !important;
+    background: url("../img/bg.jpg") left top repeat-y;
+    background-size:cover;
     color: #fff;
+}
+
+.content-block {
+    margin: 12px 0px;
 }
 
 .card {
     color: #fff;
     background: transparent;
+    font-size: 140%;
+}
+
+.card-footer, .card-header {
+    padding-top: 0px;
+    padding-bottom: 5px;
+
+    min-height: auto;
+}
+
+.card-header a {
+    font-size: 18px !important;
+}
+
+.card .card-content-inner {
+    padding-top: 0px;
+}
+
+.card-footer a.link, .card-header a.link {
+    line-height: 120%;
+    height: auto;
 }
 
 .card-footer {
@@ -36,6 +63,8 @@
 
 .card {
     box-shadow: none;
+
+    margin-bottom: 45px;
 }
 
 .card-header a.link {
@@ -46,4 +75,36 @@
     font-size: 140%;
     color: #fff;
     font-weight: 500;
+    line-height: 120%;
+}
+
+.accordion-item-content {
+    font-size: 120%;
+}
+
+.two-cell {
+    width: 100%;
+    overflow: hidden;
+
+    margin-bottom: 80px;
+}
+
+.two-cell .left {
+    float: left;
+    width: 50%;
+}
+
+.two-cell .right {
+    float: left;
+    width: 50%;
+}
+
+.two-cell img {
+    width: 100%;
+    height: auto;
+}
+
+.card-header a.link {
+    text-decoration: underline;
+    text-transform: none;
 }
