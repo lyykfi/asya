@@ -34,6 +34,12 @@
     font-size: 130%;
 }
 
+.card-header a.link {
+    white-space: normal;
+    text-align: left;
+    text-overflow: clip;
+}
+
 .card-footer, .card-header {
     padding-top: 0px;
     padding-bottom: 5px;
