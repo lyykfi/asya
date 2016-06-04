@@ -98,7 +98,7 @@ a.next-button {
 }
 
 .page-content {
-    padding-top: 0px !important;
+    padding-top: 100px !important;
     background: url("../img/bg.jpg") left top repeat-y;
     background-size:cover;
     color: #fff;
