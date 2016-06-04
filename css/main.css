@@ -86,7 +86,7 @@ a.next-button {
     margin-bottom: -140px;
 }
 .gradient-bg {
-    background: linear-gradient(rgba(26, 43, 87, 0), rgba(26, 43, 87, 1));
+    background: linear-gradient(rgba(26, 43, 87, 0),rgba(26, 43, 87, 0), rgba(26, 43, 87, 1));
     position: absolute;
     top: 0;
     left: 0;
@@ -247,7 +247,10 @@ a.next-button {
     left: 0 !important;
 
     font-family: 'Roboto Slab', serif;
+}
 
+.card-header a.link {
+    font-family: 'Roboto Slab', serif;
 }
 
 i.icon.icon-bars {
