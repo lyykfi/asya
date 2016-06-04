@@ -96,6 +96,18 @@ a.next-button {
 .page-content .image img {
     width: 100%;
 }
+#hesed_toggler {
+    font-size: 26px;
+    text-decoration: underline;
+    display: block;
+}
+#hesed_items {
+    display: none;
+}
+
+#hesed_items.show {
+    display: block;
+}
 
 .page-content {
     padding-top: 100px !important;

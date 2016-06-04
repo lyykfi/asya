@@ -14,3 +14,10 @@ var mainView = myApp.addView('.view-main', {
 $$(".panel-left a").on("click", function() {
     myApp.closePanel();
 });
+
+var toggler = document.getElementById("hesed_toggler");
+var isTogle = false;
+toggler.addEventListener("click", function() {
+    isTogle = !isTogle;
+    document.getElementById("hesed_items").classList.toggle("show", isTogle);
+});
