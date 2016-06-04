@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,900,700&subset=cyrillic-ext,latin);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:300,400,500,900,700&subset=cyrillic-ext,latin);
 
 * {
     margin: 0;
@@ -9,7 +10,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
 }
 
 .view-left {
@@ -51,10 +52,10 @@ a.next-button {
 }
 .list-block ul {
     width: 100%;
-    text-align: center !important; 
+    text-align: center !important;
 }
 .list-block .item-content {
-    padding-left: 0; 
+    padding-left: 0;
 }
 .list-block .item-inner {
     padding: 0;
@@ -204,7 +205,7 @@ a.next-button {
 }
 
 .two-cell .card {
-    
+
 }
 
 .two-cell .right {
@@ -244,6 +245,9 @@ a.next-button {
     width: 100%;
     text-align: center;
     left: 0 !important;
+
+    font-family: 'Roboto Slab', serif;
+
 }
 
 i.icon.icon-bars {
