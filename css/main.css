@@ -22,7 +22,7 @@ a.prev-button {
     position: absolute;
     z-index: 20000;
     left: 20px;
-    top:50vh;
+    top:30vh;
     color: #fff;
     text-align: left;
     background: url(../img/arrowleft.png) left center no-repeat;
@@ -33,7 +33,7 @@ a.next-button {
     position: absolute;
     z-index: 20000;
     right: 20px;
-    top:50vh;
+    top:30vh;
     color: #fff;
     text-align: right;
     background: url(../img/arrowright.png) right center no-repeat;
@@ -80,7 +80,7 @@ a.next-button {
     text-align: center;
     padding: 0px;
     margin: 0px;
-    height: 100vh;
+    height: 80vh;
     position: relative;
     overflow: hidden;
     margin-bottom: -140px;
@@ -103,7 +103,7 @@ a.next-button {
 }
 #hesed_items {
     display: none;
-}
+}a.prev-button
 
 #hesed_items.show {
     display: block;
