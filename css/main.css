@@ -125,6 +125,7 @@ a.next-button {
 .content-block-inner h2 {
     font-size: 20px;
     font-weight: 400;
+    padding-bottom: 30px;
 }
 
 .content-block-inner:before {
