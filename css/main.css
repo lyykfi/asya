@@ -83,7 +83,7 @@ a.next-button {
     height: 80vh;
     position: relative;
     overflow: hidden;
-    margin-bottom: -140px;
+    margin-bottom: -110px;
 }
 .gradient-bg {
     background: linear-gradient(rgba(26, 43, 87, 0),rgba(26, 43, 87, 0), rgba(26, 43, 87, 1));
