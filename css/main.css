@@ -103,7 +103,7 @@ a.next-button {
 }
 #hesed_items {
     display: none;
-}a.prev-button
+}
 
 #hesed_items.show {
     display: block;
@@ -290,16 +290,15 @@ i.icon.icon-bars {
     font-size: 24px;
 }
 
-#down {
-    position: absolute;
-    right: 30px;
-    bottom: 20px;
-    width: 50px;
-    height: 50px;
-    padding: 20px;
-    border-radius: 100%;
+.down-icon {
+    display: inline-block;
+    margin: 5px;
+    width: 40px;
+    height: 20px;
     z-index: 9999;
-    background: #fff url("../img/down.png") left top no-repeat;
-    opacity: 0.5;
+    background: url("../img/down.png") left top no-repeat;
+    opacity: 0.8;
     background-size: 100% 100%;
+
+    vertical-align: middle;
 }

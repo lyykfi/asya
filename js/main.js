@@ -15,10 +15,9 @@ $$(".panel-left a").on("click", function() {
     myApp.closePanel();
 });
 
-var toggler = document.getElementById("hesed_toggler");
 var isTogle = false;
 
-toggler.addEventListener("click", function() {
+$$(document).on("click", "#hesed_toggler", function(event) {
     isTogle = !isTogle;
     document.getElementById("hesed_items").classList.toggle("show", isTogle);
 });
