@@ -291,13 +291,13 @@ i.icon.icon-bars {
 }
 
 .down-icon {
-    display: inline-block;
-    margin: 5px;
+    display: block;
+    margin: 15px 0px 0px 0px;
     width: 40px;
     height: 20px;
     z-index: 9999;
     background: url("../img/down.png") left top no-repeat;
-    opacity: 0.8;
+    opacity: 0.6;
     background-size: 100% 100%;
 
     vertical-align: middle;
