@@ -274,3 +274,18 @@ i.icon.icon-bars {
 .navbar .left {
     background: #2981b1;
 }
+
+.popup-frame .content-block {
+    padding: 0px;
+    margin: 0px;
+}
+
+#frame {
+    overflow-x: hidden;
+}
+
+.close-popup {
+    text-align: center;
+    display: block;
+    font-size: 24px;
+}
